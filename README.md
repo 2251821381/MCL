@@ -13,7 +13,7 @@ sklearn==0.24.1
 numpy==1.19.5
  
 
-Step-1. download the original datastes from https://github.com/rashadulrakib/short-text-clustering-enhancement/tree/master/data
+Step-1. download the original datastes from https://github.com/rashadulrakib/short-text-clustering-enhancement
 
 step-2. then obtain the augmented data
 
