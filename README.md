@@ -11,14 +11,11 @@ tensorboardX==2.4.1
 pandas==1.1.5
 sklearn==0.24.1
 numpy==1.19.5
-MCL with explicit augmentations
-In additional to the original data, SCCL requires a pair of augmented data for each instance.
-
-The data format is (text, text1, text2) where text1 and text2 are the column names of augmented pairs. See our NAACL paper for details about the learning objective.
+ 
 
 Step-1. download the original datastes from https://github.com/rashadulrakib/short-text-clustering-enhancement/tree/master/data
 
-step-2. then obtain the augmented data using the code in ./AugData/
+step-2. then obtain the augmented data
 
 step-3 run the code via the following:
 
@@ -44,5 +41,5 @@ python3 main.py \
         --gpuid 0 &
 
 
-Download the original datastes from https://github.com/rashadulrakib/short-text-clustering-enhancement/tree/master/data
+
 
