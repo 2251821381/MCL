@@ -28,7 +28,7 @@ python3 main.py \
         --num_classes 8 \
         --text text \
         --label label \
-        --objective SCCL \
+        --objective MCL \
         --augtype explicit \
         --temperature 0.5 \
         --topk 500 \
