@@ -35,7 +35,7 @@ python3 main.py \
         --lr 1e-05 \
         --lr_scale 100 \
         --max_length 32 \
-        --batch_size 400 \
+        --batch_size 500 \
         --max_iter 3000 \
         --print_freq 100 \
         --gpuid 0 &
